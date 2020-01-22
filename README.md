@@ -1,3 +1,3 @@
 Vabaco blog for Rails Tutorials
 
-https://vabako-blog-tsotne.herokuapp.com/
+https://vabaco-blog-tsotne.herokuapp.com/
