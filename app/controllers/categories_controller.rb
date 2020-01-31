@@ -1,6 +1,6 @@
 class CategoriesController < ApplicationController
   def index
-    @categories = Category.all
+    @categories = Category.paginate(page: params[:page], per_page: 5)
   end
 
   def new
@@ -14,7 +14,7 @@ class CategoriesController < ApplicationController
       redirect_to categories_path
     else
       render 'new'
-    end 
+    end
   end
 
   def show
