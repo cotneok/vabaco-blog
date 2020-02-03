@@ -19,6 +19,16 @@ $navbar-default-bg: gray;
 .center {
   text-align: center;
 }
+.badge {
+  background-color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
 
 .jumbotron {
   background-image: asset-url('blog.jpg');
@@ -45,6 +55,7 @@ $navbar-default-bg: gray;
   background-color: black;
 
 }
+
 
 .article-meta-details {
   border-top: 1px solid #eaeaea;
@@ -73,7 +84,6 @@ list-style: none;
 padding-left: 0;
 
 }
-
 
 
 .article-title {
